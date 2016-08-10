@@ -32,7 +32,7 @@ class Timeline {
 	public static function renderTimeline( $timelinesrc, array $args, $parser, $frame ) {
 		global $wgUploadDirectory, $wgUploadPath, $wgArticlePath, $wgTmpDirectory, $wgRenderHashAppend;
 		global $wgTimelineFileBackend, $wgTimelineEpochTimestamp, $wgTimelinePerlCommand, $wgTimelineFile;
-		global $wgTimelineFontFile;
+		global $wgTimelineFontFile, $wgTimelinePloticusCommand;
 
 		$parser->getOutput()->addModuleStyles( 'ext.timeline.styles' );
 
